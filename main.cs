@@ -5,24 +5,22 @@
 
 using System;
 
-class Program {
-  public static void Main(string[] args)
+class Program{
+  public static void Main(string[]args)
     {
         // This function states user's address input.
         int triangleHeight;
         int triangleBase;
-      
         Console.WriteLine("This program will retell the area of a triangle.");
         Console.WriteLine("");
       
-        Console.Write("Enter height of the triangle: ");
+        Console.Write("Enter height of the triangle: ") ;
         triangleHeight = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter base of teh triangle: ");
         triangleBase = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("");
         Console.WriteLine("The area is is: " + (triangleHeight * triangleBase) /2  + "cm².");
-        Console.WriteLine("\nDone.");
+        Console.WriteLine("\nDone.") ;
     }
-}
-      
+}   
