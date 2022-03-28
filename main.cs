@@ -7,7 +7,7 @@ using System;
 
 class Program
 {
-  public static void Main(string[] args)
+    public static void Main(string[] args)
     {
         // This function states user's address input.
         int triangleHeight;
@@ -21,7 +21,7 @@ class Program
         triangleBase = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("");
-        Console.WriteLine("The area is: " + (triangleHeight*triangleBase) /2  + " cm²."); 
+        Console.WriteLine("The area is: " + ( triangleHeight * triangleBase )/2  + " cm²."); 
         Console.WriteLine("\nDone.");
-    } 
+    }
 }
