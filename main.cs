@@ -5,12 +5,14 @@
 
 using System;
 
-class Program {
-  public static void Main(string[] args);
+class Program 
+{
+  public static void Main(string[] args)
     {
         // This function states user's address input.
         int triangleHeight;
         int triangleBase;
+      
         Console.WriteLine("This program will retell the area of a triangle."); 
         Console.WriteLine("");
         Console.Write("Enter height of the triangle: "); 
